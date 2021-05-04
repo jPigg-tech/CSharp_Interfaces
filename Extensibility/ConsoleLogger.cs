@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Extensibility
 {
-    class ConsoleLogger : ILogger
+    public class ConsoleLogger : ILogger
     {
         public void LogError(string message)
         {

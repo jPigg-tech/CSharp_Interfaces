@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Extensibility
 {
-    class DbMigrator
+    public class DbMigrator
     {
         private readonly ILogger _logger;
         public DbMigrator(ILogger logger)
