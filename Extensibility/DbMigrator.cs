@@ -23,6 +23,12 @@ namespace Extensibility
             // Details of migrating the database 
 
             _logger.LogInfo("Migration started at {0}" + DateTime.Now);
+
+            // This is open closed priciple, Open for extension but closed
+            // for modifacation
+            // we extended it by creating new logger classes
+            // but did not change anything in this class
+            
         }
     }
 }
