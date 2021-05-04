@@ -10,7 +10,7 @@ namespace Extensibility
     {
         static void Main(string[] args)
         {
-            var dbMigrator = new DbMigrator(new ConsoleLogger());
+            var dbMigrator = new DbMigrator(new FileLogger("C:\\Users\\jeffp\\OneDrive\\Desktop\\CSharpExercises\\Interfaces\\log.txt"));
             dbMigrator.Migrate();
         }
     }
