@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extensibility", "Extensibil
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfacesAndPolymorphism", "InterfacesAndPolymorphism\InterfacesAndPolymorphism.csproj", "{F2CA88BC-7632-4FD2-9F1B-35B3EAA532C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkflowEngine", "WorkflowEngine\WorkflowEngine.csproj", "{71241A78-3084-43C2-96E3-BB5C6A7D8A7C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkflowEngineProj", "WorkflowEngineProj\WorkflowEngineProj.csproj", "{75571488-E24C-41BC-A724-F4E45A5EA446}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{F2CA88BC-7632-4FD2-9F1B-35B3EAA532C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2CA88BC-7632-4FD2-9F1B-35B3EAA532C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2CA88BC-7632-4FD2-9F1B-35B3EAA532C5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{71241A78-3084-43C2-96E3-BB5C6A7D8A7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{71241A78-3084-43C2-96E3-BB5C6A7D8A7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{71241A78-3084-43C2-96E3-BB5C6A7D8A7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{71241A78-3084-43C2-96E3-BB5C6A7D8A7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75571488-E24C-41BC-A724-F4E45A5EA446}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75571488-E24C-41BC-A724-F4E45A5EA446}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75571488-E24C-41BC-A724-F4E45A5EA446}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75571488-E24C-41BC-A724-F4E45A5EA446}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
