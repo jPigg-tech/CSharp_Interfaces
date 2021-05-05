@@ -8,9 +8,23 @@ namespace WorkflowEngineProj
 {
     class WorkflowEngine
     {
+        private readonly IList<IWorkflowExecutable> _workflowExecutables;
+        public WorkflowEngine()
+        {
+            _workflowExecutables = new List<IWorkflowExecutable>();
+        }
+
         public void Run(Workflow workflow)
         {
+            foreach (var executable in _workflowExecutables)
+            {
+                executable.Execute();            
+            }
 
+        }
+        public void RegisterWorkflowExecutable(IWorkflowExecutable executable)
+        {
+            _workflowExecutables.Add(executable);
         }
     }
 }
