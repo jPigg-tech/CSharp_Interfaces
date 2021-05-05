@@ -18,7 +18,7 @@ namespace WorkflowEngineProj
         {
             foreach (var executable in _workflowExecutables)
             {
-                executable.Execute();            
+                executable.Execute();                
             }
 
         }

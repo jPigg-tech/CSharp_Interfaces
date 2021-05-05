@@ -10,6 +10,11 @@ namespace WorkflowEngineProj
     {
         static void Main(string[] args)
         {
+            var workflowEngine = new WorkflowEngine();
+            workflowEngine.RegisterWorkflowExecutable(new UploadVideo());
+            workflowEngine.RegisterWorkflowExecutable(new SendEmail());
+            workflowEngine.RegisterWorkflowExecutable(new CallWebService());
+            workflowEngine.Run(new Workflow());
         }
     }
 }
